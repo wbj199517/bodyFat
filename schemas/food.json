@@ -1,0 +1,19 @@
+{
+    "name": {
+      "type": "String",
+      "unique": true,
+      "required": [true, "name field is required"]
+    },
+    "calorie": {
+      "type": "number"
+    },
+    "protein": {
+      "type": "number"
+    },
+    "fat": {
+      "type": "number"
+    },
+    "carbs": {
+      "type": "number"
+    }
+}
